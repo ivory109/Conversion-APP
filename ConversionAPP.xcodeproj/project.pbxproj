@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		CE097DAB2643E51100EB6DE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE097DAA2643E51100EB6DE3 /* AppDelegate.swift */; };
 		CE097DAD2643E51100EB6DE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE097DAC2643E51100EB6DE3 /* SceneDelegate.swift */; };
-		CE097DAF2643E51100EB6DE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE097DAE2643E51100EB6DE3 /* ViewController.swift */; };
 		CE097DB22643E51100EB6DE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE097DB02643E51100EB6DE3 /* Main.storyboard */; };
 		CE097DB42643E51300EB6DE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE097DB32643E51300EB6DE3 /* Assets.xcassets */; };
 		CE097DB72643E51300EB6DE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE097DB52643E51300EB6DE3 /* LaunchScreen.storyboard */; };
+		CE097DC02643E60000EB6DE3 /* BmiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE097DBF2643E60000EB6DE3 /* BmiViewController.swift */; };
+		CE097DC42643E6B000EB6DE3 /* TaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE097DC32643E6B000EB6DE3 /* TaxViewController.swift */; };
+		CE097DC72643E8C900EB6DE3 /* ExchangeRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE097DC62643E8C900EB6DE3 /* ExchangeRateViewController.swift */; };
+		CE097DCA2643E8E900EB6DE3 /* UnitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE097DC92643E8E900EB6DE3 /* UnitViewController.swift */; };
+		CE097DCE2643EA4700EB6DE3 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE097DCD2643EA4700EB6DE3 /* Button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE097DA72643E51100EB6DE3 /* ConversionAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConversionAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE097DAA2643E51100EB6DE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE097DAC2643E51100EB6DE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE097DAE2643E51100EB6DE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE097DB12643E51100EB6DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE097DB32643E51300EB6DE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE097DB62643E51300EB6DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE097DB82643E51300EB6DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE097DBF2643E60000EB6DE3 /* BmiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BmiViewController.swift; sourceTree = "<group>"; };
+		CE097DC32643E6B000EB6DE3 /* TaxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxViewController.swift; sourceTree = "<group>"; };
+		CE097DC62643E8C900EB6DE3 /* ExchangeRateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateViewController.swift; sourceTree = "<group>"; };
+		CE097DC92643E8E900EB6DE3 /* UnitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitViewController.swift; sourceTree = "<group>"; };
+		CE097DCD2643EA4700EB6DE3 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,12 @@
 			children = (
 				CE097DAA2643E51100EB6DE3 /* AppDelegate.swift */,
 				CE097DAC2643E51100EB6DE3 /* SceneDelegate.swift */,
-				CE097DAE2643E51100EB6DE3 /* ViewController.swift */,
 				CE097DB02643E51100EB6DE3 /* Main.storyboard */,
+				CE097DBF2643E60000EB6DE3 /* BmiViewController.swift */,
+				CE097DC32643E6B000EB6DE3 /* TaxViewController.swift */,
+				CE097DC62643E8C900EB6DE3 /* ExchangeRateViewController.swift */,
+				CE097DC92643E8E900EB6DE3 /* UnitViewController.swift */,
+				CE097DCD2643EA4700EB6DE3 /* Button.swift */,
 				CE097DB32643E51300EB6DE3 /* Assets.xcassets */,
 				CE097DB52643E51300EB6DE3 /* LaunchScreen.storyboard */,
 				CE097DB82643E51300EB6DE3 /* Info.plist */,
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE097DAF2643E51100EB6DE3 /* ViewController.swift in Sources */,
+				CE097DCE2643EA4700EB6DE3 /* Button.swift in Sources */,
+				CE097DC02643E60000EB6DE3 /* BmiViewController.swift in Sources */,
+				CE097DC72643E8C900EB6DE3 /* ExchangeRateViewController.swift in Sources */,
 				CE097DAB2643E51100EB6DE3 /* AppDelegate.swift in Sources */,
+				CE097DC42643E6B000EB6DE3 /* TaxViewController.swift in Sources */,
+				CE097DCA2643E8E900EB6DE3 /* UnitViewController.swift in Sources */,
 				CE097DAD2643E51100EB6DE3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
